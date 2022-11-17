@@ -1,0 +1,20 @@
+java.util.AbstractList
+
+A abstract class AbstractCollection posssui todos os métodos comuns nas classes que a extendem, tendo estas classes
+de dar override a esses métodos para os poder alterar. No caso da class AbstractList, que implementa a interface List 
+e extende a AbstractCollection, os métodos size() e get() são overrided mas os restantes são os mesmo do template.
+
+---------------------------------------------------------------------------------------------------------------------
+
+java.util.AbstractSet
+
+No caso da classe AbstractSet, é necessário implementar Set e extender AbstractCollection, contudo não existe qualquer
+situação de override. Existe apenas necessidade de criar novos métodos (da interface Set). Mesmo assim este continua a
+ser um caso de utilização do padrão.
+
+---------------------------------------------------------------------------------------------------------------------
+
+java.io.Writer
+
+Extende Object e que implementa Appendable, Closeable, Flushable. As subclasses que implementam Writer precisam de dar
+override a close(), flush e writer(char[] buffer,int off, int len), logo este também é um caso de Template Method.

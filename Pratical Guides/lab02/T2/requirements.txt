@@ -1,0 +1,11 @@
+1. O puzzle é sempre quadrado, com o tamanho máximo de 40x40. ✅
+2. As letras do puzzle estão em maiúscula. ✅
+3. Na lista, as palavras podem estar só em minúsculas, ou misturadas.✅
+4. As palavras são compostas por caracteres alfabéticos. ✅
+5. No puzzle e na lista de palavras, o ficheiro não pode conter linhas vazias. ✅
+6. Cada linha pode ter mais do que uma palavra, separadas por vírgula, espaço ou ponto e vírgula. ✅
+7. Todas as palavras da lista têm de estar no puzzle e apenas uma vez. ✅(verifica se a palavra está no puzzle.)
+8. A lista de palavras pode conter palavras com partes iguais (por exemplo, pode conter BAG e RUTABAGA). Nestes casos a deteção das palavras mais pequenas não deve ser feita sobre a palavra maior.
+
+
+(Não sei fazer o 8)
